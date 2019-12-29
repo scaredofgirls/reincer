@@ -1,0 +1,37 @@
+race:
+  name: Dwarf
+  description: Description from in game help
+  notes: Things like ghydron requiring bark.
+  special: tl;dr of the race special
+  exp_rate:
+  skill_max:
+  # Possible values are: "much slower", "much faster"
+  skill_speed:
+  spell_max:
+  spell_speed:
+  height:
+  mass:
+  # Boolean
+  sees_in_dark:
+  # An array of res value pairs. In this example help says:
+  # They are naturally extremely resistant to poison damage.
+  # They are naturally vulnerable to holy damage.
+  natural_resistances:
+    - poison: extremely
+  natural_vulnerabilities:
+    - holy: None
+  stats:
+    # Possible values are: terrible, poor, average, above average, good
+    strength:
+    constitution:
+    dexterity:
+    stamina:
+    intelligence:
+    wisdom:    
+    charisma:
+    hp_max:
+    ep_max:
+    sp_max:
+    hp_regen:
+    ep_regen:
+    sp_regen:
