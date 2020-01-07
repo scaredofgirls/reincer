@@ -1,0 +1,47 @@
+race:
+  name: lizardman
+  description: >
+    Lizardmen are savage, semi-aquatic, reptilian humanoids that live
+    through scavenging, raiding, and in less hostile areas, by fishing
+    and gathering. Adult lizardmen stand 6-7 feet tall, weighing 200 to
+    250 pounds. Skin tones range from dark green to grey and brown. They
+    are scaled and have a flecked appearance. Their tails are 3-4 feet
+    long and although not prehensile are quite expressive. Males are
+    nearly impossible to distinguish from females without either asking
+    or close inspection. About one tribe in ten has evolved to a higher
+    state and it is these lizardmen that are sometimes seen adventuring.
+  notes: None
+  special: Increased HP regen buff when you've recently entered water. Decreased HP regen without buff.
+  exp_rate: 87
+  skill_max: 95
+  # Possible values are: "slower", "much slower", "much faster"
+  skill_speed: slower
+  spell_max: 90
+  spell_speed: much slower
+  height: 6"4'
+  mass: 254
+  # Boolean
+  sees_in_dark: False
+  eats_corpses: True
+  # An array of res value pairs. In this example help says:
+  # They are naturally extremely resistant to poison damage.
+  # They are naturally vulnerable to holy damage.
+  natural_resistances:
+    - poison: extremely
+  natural_vulnerabilities:
+    - holy: None
+  stats:
+    # Possible values are: terrible, poor, average, above average, good
+    strength: above average
+    constitution: above average
+    dexterity: good
+    stamina: average
+    intelligence: poor
+    wisdom: above average
+    charisma: quite attractive
+    hp_max: above average
+    ep_max: average
+    sp_max: bad
+    hp_regen: below average
+    ep_regen: above average
+    sp_regen: average
