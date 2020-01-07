@@ -5,7 +5,10 @@ race:
   special: tl;dr of the race special
   exp_rate:
   skill_max:
-  # Possible values are: "much slower", "much faster"
+  # Possible values are:
+  # "MUCH slower", "much slower", "slower"
+  # "about as fast"
+  # "faster", "much faster", "MUCH faster"
   skill_speed:
   spell_max:
   spell_speed:
