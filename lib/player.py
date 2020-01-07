@@ -19,3 +19,6 @@ class Player():
 
     def add_guild(self, guild):
         pass
+
+    def remove_guild(self, guild):
+        pass
