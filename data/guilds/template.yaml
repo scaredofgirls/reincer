@@ -1,0 +1,14 @@
+guild:
+  name: sylvan guard
+  levels: 20
+  requires:
+    - woodsman
+  provides:
+    - sylvan_guard
+  location: on a place
+  skills:
+    - name: whirlwind attack
+      limits:
+        1: 60
+        3: 80
+        5: 100
